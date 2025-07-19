@@ -163,11 +163,6 @@ POST /api/s3/rename			Dosya yeniden adlandır		admin
 admin: Tüm işlemleri yapabilir
 user: Yalnızca yükleme, listeleme ve indirme
 
----
-
-📸 Ekran Görüntüsü
-Swagger UI ile API testi (yetkilendirme sonrası)
-
 ----
 
 💡 Geliştirme Önerileri
@@ -182,3 +177,9 @@ Swagger UI ile API testi (yetkilendirme sonrası)
 👨‍💻 Geliştirici
 Hakan Akıncı
 GitHub: github.com/HakanAknc
+
+---
+
+📸 Ekran Görüntüsü
+<img width="1312" height="802" alt="Screenshot 2025-07-19 163125" src="https://github.com/user-attachments/assets/babf6e89-eb38-4a16-8528-dd70a5ebf94a" />
+<img width="1890" height="910" alt="Screenshot 2025-07-19 165437" src="https://github.com/user-attachments/assets/c9ac62cf-ad4c-43d2-a467-b1cfb864e774" />
