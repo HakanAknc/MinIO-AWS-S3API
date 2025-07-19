@@ -41,7 +41,7 @@ Dosya yükleme, listeleme, silme, indirme, yetkilendirme ve kullanıcı yönetim
 
 ---
 
-
+'''
 S3AdvancedApp/
 │
 ├── Controllers/ → API uç noktaları
@@ -49,7 +49,7 @@ S3AdvancedApp/
 ├── Models/ → DTO, Entity ve View modeller
 ├── appsettings.json → Yapılandırma (Mongo, JWT, S3)
 └── Program.cs → Uygulama başlangıç ayarları
-
+'''
 
 ---
 
