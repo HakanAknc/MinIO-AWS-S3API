@@ -36,20 +36,7 @@ Dosya yükleme, listeleme, silme, indirme, yetkilendirme ve kullanıcı yönetim
 
 ---
 
-## 🏗️ Proje Mimarisi
 
-
----
-
-'''
-S3AdvancedApp/
-│
-├── Controllers/ → API uç noktaları
-├── Services/ → İş servisleri (S3Service, AuthService, UserService)
-├── Models/ → DTO, Entity ve View modeller
-├── appsettings.json → Yapılandırma (Mongo, JWT, S3)
-└── Program.cs → Uygulama başlangıç ayarları
-'''
 
 ---
 
@@ -105,6 +92,7 @@ GET /api/S3/list-by-date	Belirli tarih klasörüne göre listeleme
 POST /api/S3/rename		Dosya yeniden adlandırma (kopyala+sil)
 
 
+## 🏗️ Proje Mimarisi
 
 ----
 
