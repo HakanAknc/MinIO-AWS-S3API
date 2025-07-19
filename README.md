@@ -7,6 +7,8 @@ Dosya yükleme, listeleme, silme, indirme, yetkilendirme ve kullanıcı yönetim
 ☁️ **S3 uyumlu MinIO desteği**,  
 📦 **MongoDB tabanlı kullanıcı yönetimi** ile birlikte gelir.
 
+<img width="1312" height="802" alt="Screenshot 2025-07-19 163125" src="https://github.com/user-attachments/assets/925c6cf3-4b7d-4a1e-93f9-262b41e1af0d" />
+
 ---
 
 ## 🚀 Özellikler
