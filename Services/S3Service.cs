@@ -95,7 +95,7 @@ namespace S3AdvancedV2.Services
             return (response.ResponseStream, response.Headers.ContentType);
         }
 
-        // This method lists all files in the S3 bucket with detailed information such as size, last modified date, and content type.
+        // This method lists all files in the S3 bucket with detailed information such as size, last modified date, and content type!
         public async Task<List<S3ObjectInfo>> ListDetailedAsync(string prefix = "uploads/")
         {
             var result = new List<S3ObjectInfo>();

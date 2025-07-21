@@ -2,7 +2,7 @@
 {
     public class MongoSettings
     {
-        public string ConnectionString { get; set; }
-        public string DatabaseName { get; set; }
+        public string ConnectionString { get; set; }  // MongoDB connection string
+        public string DatabaseName { get; set; }  // Name of the MongoDB database
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("S3AdvancedV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+372510b49dc8022364ddd62f4737debaefd8ff87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+658fd59b5facd8ee09ba53af090b84d562fc5687")]
 [assembly: System.Reflection.AssemblyProductAttribute("S3AdvancedV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("S3AdvancedV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

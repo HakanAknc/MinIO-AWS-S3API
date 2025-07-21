@@ -7,10 +7,10 @@ namespace S3AdvancedV2.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string Id { get; set; }  // id for the user 
 
-        public string Username { get; set; }
-        public string Password { get; set; } // Demo için plain-text
-        public string Role { get; set; } // admin | user
+        public string Username { get; set; }  // username for the user
+        public string Password { get; set; }  // password for the user
+        public string Role { get; set; }  // role of the user (e.g., admin, user, etc.)
     }
 }

@@ -16,6 +16,7 @@ namespace S3AdvancedV2.Services
             _userService = userService;
         }
 
+        // token oluşturma ve kullanıcı doğrulama işlemleri
         public async Task<string> LoginAsync(string username, string password)
         {
             var user = await _userService.GetByUsernameAsync(username);

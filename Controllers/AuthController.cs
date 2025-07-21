@@ -13,12 +13,14 @@ namespace S3AdvancedV2.Controllers
         private readonly AuthService _authService;
         private readonly UserService _userService;
 
+        
         public AuthController(AuthService authService, UserService userService)
         {
             _authService = authService;
             _userService = userService;
         }
 
+        // POST: api/auth/login
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] S3AdvancedV2.Models.LoginRequest request)
         {
@@ -28,6 +30,7 @@ namespace S3AdvancedV2.Controllers
             return Ok(new { token });
         }
 
+        // POST: api/auth/register
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserModel user)
         {
@@ -35,6 +38,7 @@ namespace S3AdvancedV2.Controllers
             return Ok("Kullanıcı oluşturuldu");
         }
 
+        // GET: api/auth/users
         [HttpGet("users")]
         public async Task<IActionResult> Users()
         {

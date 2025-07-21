@@ -15,16 +15,19 @@ namespace S3AdvancedV2.Services
             _users = database.GetCollection<UserModel>("Users");
         }
 
+        // This method retrieves a user by their username from the MongoDB collection.
         public async Task<UserModel> GetByUsernameAsync(string username)
         {
             return await _users.Find(u => u.Username == username).FirstOrDefaultAsync();
         }
 
+        // This method creates a new user in the MongoDB collection.
         public async Task CreateAsync(UserModel user)
         {
             await _users.InsertOneAsync(user);
         }
 
+        // This method retrieves all users from the MongoDB collection.
         public async Task<List<UserModel>> GetAllAsync()
         {
             return await _users.Find(_ => true).ToListAsync();
