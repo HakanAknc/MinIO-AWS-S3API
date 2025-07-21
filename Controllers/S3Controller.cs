@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using S3AdvancedV2.Models;
 using S3AdvancedV2.Services;
+using S3AdvancedV2.Services.Interfaces;
 
 namespace S3AdvancedV2.Controllers
 {
@@ -9,9 +10,9 @@ namespace S3AdvancedV2.Controllers
     [ApiController]
     public class S3Controller : ControllerBase
     {
-        private readonly S3Service _s3Service;
+        private readonly IS3Service _s3Service;
 
-        public S3Controller(S3Service s3Service)
+        public S3Controller(IS3Service s3Service)
         {
             _s3Service = s3Service;
         }

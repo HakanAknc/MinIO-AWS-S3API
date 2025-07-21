@@ -13,6 +13,7 @@ builder.Services.AddSingleton<S3Service>();
 builder.Services.Configure<MongoSettings>(
     builder.Configuration.GetSection("MongoSettings"));
 
+//builder.Services.AddScoped<IS3Service, S3Service>();
 builder.Services.AddSingleton<UserService>();
 builder.Services.AddSingleton<AuthService>();
 
